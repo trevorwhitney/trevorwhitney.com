@@ -1,0 +1,13 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #CEECF2 url('texture.png') repeat;
+}
+div.header {
+	background: url('Wood/17.gif') repeat;
+	height: 125px;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0 -3px 3px 0 rgba(0, 0, 0, 0.40) inset;
+	color: #FFF;
+}
