@@ -52,7 +52,7 @@ ul.boards li {
 	float:left;
 	list-style: none;
 	display: block;
-	height: 1.25em;
+	height: 1.5em;
 	width: 214px;
 	margin-left: 20px;
 	font-size: 30px;
@@ -61,10 +61,10 @@ ul.boards li {
 	border-right: 1px solid rgba(0, 0, 0, 0.1);
 	box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.6);
 	text-align: center;
-	border-radius: 12px;
+	border-radius: 9px;
 	color: #D9C6B0;
-	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.7);
-	line-height: 1.1em
+	text-shadow: 1px 1px 0 rgba(13, 5, 1, 0.7);
+	line-height: 1.4em
 }
 ul.boards li.first {
 	margin-left: 0;

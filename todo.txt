@@ -1,0 +1,4 @@
+-Add borders to nav buttons like Sortino
+-Add shadow to chain links
+-Find suitable colors and texture for main body squares
+	-Add shadows/borders to body squares, like Sortino
