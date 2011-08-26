@@ -22,7 +22,7 @@ div.content {
 }
 div.chains {
 	position: absolute;
-	top: 44px;
+	top: 42px;
 	z-index: 10;
 }
 div.chains ul {
@@ -44,7 +44,7 @@ div.top_nav {
 	overflow: hidden;
 	margin: 0 auto;
 	position: relative;
-	top: 8px;
+	top: 6px;
 }
 div.top_nav ul {
 }
