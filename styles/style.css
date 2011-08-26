@@ -1,13 +1,71 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: #CEECF2 url('textures/texture.png') repeat;
+	background: #CEECF2 url('../patterns/webtreatsetc-asd-8.jpg') repeat;
+}
+div.header-box {
+	height: 70px;
+	background: #000;
+	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.30);
 }
 div.header {
-	background: url('textures/17.gif') repeat;
-	height: 125px;
+	background: url('textures/5.jpg') repeat;
+	height: 70px;
 	margin: 0;
 	padding: 0;
-	box-shadow: 0 -3px 3px 0 rgba(0, 0, 0, 0.40) inset;
+	box-shadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.70) inset;
 	color: #FFF;
+}
+div.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+div.chains {
+	position: absolute;
+	top: 44px;
+	z-index: 10;
+}
+div.chains ul {
+	margin-left: 8px;
+	float: left;
+}
+div.chains ul.first {
+	margin-left: 31px;
+}
+div.chains ul li {
+	float: left;
+	list-style: none;
+}
+div.chains ul li.first {
+	margin-right: 162px;
+}
+div.top_nav {
+	width: 961px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	top: 8px;
+}
+div.top_nav ul {
+}
+ul.boards li {
+	float:left;
+	list-style: none;
+	display: block;
+	height: 40px;
+	width: 214px;
+	margin-left: 20px;
+	font-size: 30px;
+	background: url('textures/5.jpg');
+	border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.6);
+	text-align: center;
+	border-radius: 12px;
+}
+ul.boards li.first {
+	margin-left: 0;
+}
+ul.boards li span {
+	margin: auto auto;
 }
