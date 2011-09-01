@@ -1,0 +1,23 @@
+<% title @page.title %>
+
+<div class="content">
+  <div class="content-header"><h2><%= @page.title %></h2></div>
+  <div class="content-body">
+    <%= @page.content %>
+    <p>
+      <%= link_to "Edit", edit_page_path(@page) %> |
+      <%= link_to "Destroy", @page, :confirm => 'Are you sure?', :method => :delete %> |
+      <%= link_to "View All", pages_path %>
+    </p>
+  </div>
+  <% #Check if sidebar, add sidebar to page model %>
+</div>
+<div class="sidebar">
+  <div class="sidebar-header"><h2>Latest Posts</h2></div>
+  <div class="sidebar-content">Blah dee dah</div>
+</div>
+<div class="sidebar">
+  <div class="sidebar-header"><h2>Recent Projects</h2></div>
+  <div class="sidebar-content">Blah dee dah</div>
+</div>
+
